@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>THE APP AVATAR</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <!--the page layout ll be stored in this container class for better mobile view-->
+      <div class="container">
+        <!--the header of the page logo is stored here-->
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+          <!--the brand name is stored here in the navbar-brand class-->
+          <div class="navbar-brand">
+            <a href="index.html"><h1>THE APP AVATAR</h1></a>
+            <!--watermark or additional logo below the header is stored here-->
+            <p>
+              <img src="images/star-k-logo.png" alt="Speedy delivery">
+              <span>Speedy delivery</span>
+            </p>
+          </div>
+          <!--the below is for the button for the like menu cart n login-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!--the menu bar is stored in the below id=collapsable nav-->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-th-list"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-shopping-cart"></span><br class="hidden-xs"> Cart</a>
+            </li>
+            <li>
+              <a href="login.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Login</a>
+            </li>
+            <!--the list for the Phonenumber is added here-->
+            <li id="phone" class="hidden-xs">
+              <a href="tel:878-784-9561">
+                <span>878-784-9561</span></a><div>* contact us</div>
+            </li>
+            </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <body>
+  
+  <div class="search-container">
+    
+  </div>
+</div>
+
+ 
+    <div style="padding-left:16px">
+
+
+<div class="w3-content w3-display-container">
+
+   <div class="w3-content w3-section" style="max-width:100%">
+    <a href="index.html"> <image class="mySlides" src="images/retrosport.jpg" style="width:30%"> </a>
+  <a href="index.html"> <image class="mySlides" src="images/cloth.jpg" style="width:70%"> </a>
+  <a href="index.html"> <image class="mySlides" src="images/grey.jpg" style="width:40%"> </a
+</div>  
+
+<script>
+     var myIndex = 0;
+   carousel();
+   
+   function  carousel(){
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   for (i = 0; i < x.length; i++){
+    x[i].style.display = "none";
+    }
+    myIndex++;
+    if(myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel,2000);
+    }
+    </script>
+
+    <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Main town, dimapur<br>
+          NAGALAND
+          <p>* Delivery area within 3-4 miles.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"we deliver for you within 24hrs"</p>
+          <p>"shop with us and be a part of our family"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright THE AVATAR 2020</div>
+    </div>
+  </footer>
+
+    </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) these are the links for the bootstrap dont remove-->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+  </body>
